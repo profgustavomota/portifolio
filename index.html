@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Meu portfólio</title>
 </head>
@@ -18,10 +19,10 @@
         <p>Sou professor na E.E. Sophia Maria Januária Amaral, com formação em Filosofia (FFLCH-USP) e Licenciatura em
             Arte (ECA-USP). Leciono Arte, Filosofia, História e Programação, integrando essas áreas em projetos
             criativos e interdisciplinares.
-
             Valorizo a autonomia dos estudantes e o uso da tecnologia como ferramenta de expressão. Nas aulas de
             Programação, utilizo plataformas como Scratch, Pictoblox e Arcade MakeCode, além de introduzir fundamentos
-            de HTML, CSS, JavaScript e Python. Veja aqui alguns de meus projetos nas aulas de Programação e Tecnologia.</p>
+            de HTML, CSS, JavaScript e Python. Veja aqui alguns de meus projetos nas aulas de Programação e Tecnologia.
+        </p>
         <p>Minhas habilidades</p>
         <div>
             <p class="badge bg-secondary">HTML</p>
@@ -33,23 +34,229 @@
             <p class="badge bg-secondary">Arcade MakeCode</p>
         </div>
     </header>
-    <main class="container">
+    <main class="container mt-5">
         <h2>Meus projetos</h2>
         <div class="row">
+            <!-- Projeto 1 -->
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="img/robo em marte.PNG" class="card-img-top" alt="imagem do projeto Scratch">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Autômatos: criando uma simulação de robô em Marte</h5>
+                        <p class="card-text">Jogo de exploração de um robô em Marte. Atividade desenvolvida para os
+                            estudantes do 9º ano do Esino Fundamental (Anos Finais) com Programação em Blocos.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o
+                            projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/monalisa.PNG" class="card-img-top" alt="imagem do projeto p5.js monalisa">
+                    <div class="card-body">
+                        <h5 class="card-title">Lógica de programação: criando arte interativa com P5.js</h5>
+                        <p class="card-text">Arte interativa com a plataforma P5.js para os estudantes do Ensino Médio
+                            sobre o efeito Monalisa, ou seja, ilusão de que o olhar de uma pessoa em um retrato, pintura
+                            ou imagem, parece seguir o espectador, independentemente da sua posição.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o
+                            projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/jogo de corrida.PNG" class="card-img-top"
+                        alt="imagem do projeto p5.js jogo de corrida">
+                    <div class="card-body">
+                        <h5 class="card-title">Listas, funções e repetição: criando um jogo de corrida</h5>
+                        <p class="card-text">Jogo de corrida feito em JavaScript com a plataforma p5.js para os
+                            estudantes do Ensino Médio.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o
+                            projeto</button>
                     </div>
                 </div>
             </div>
         </div>
 
     </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Autômatos: criando uma simulação de robô em Marte</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body">
+                        <p>
+                            Na unidade "Autômatos: criando uma simulação de um Robô em Marte", os alunos constroem um
+                            jogo interativo usando programação em blocos, no qual controlam um robô explorador que
+                            percorre o planeta Marte em busca de pontos de pesquisa. O projeto é desenvolvido passo a
+                            passo, com ênfase no raciocínio lógico, na resolução de problemas e no uso criativo de
+                            comandos básicos de programação visual.
+                        <p>
+                            Durante a construção do jogo, os estudantes aprendem a criar um cenário espacial e programar
+                            o movimento do robô usando as teclas W, A e D. Variáveis são utilizadas para armazenar
+                            informações como a energia do robô e os pontos de pesquisa coletados, promovendo a noção de
+                            estado e pontuação dentro do jogo. Também são aplicadas estruturas condicionais (como
+                            se/senão) para controlar os limites da tela e para lidar com interações entre o robô e
+                            outros elementos, como tempestades e fontes de energia.
+                        </p>
+                        <p>
+                            A lógica do jogo se expande com o uso de clones — cópias programadas de objetos como nuvens
+                            ou insetos — que representam obstáculos ou elementos interativos. Os alunos aprendem a criar
+                            e gerenciar esses clones, otimizando o código e tornando a simulação mais dinâmica e
+                            desafiadora.
+                        </p>
+                        <p>
+                            Além disso, são introduzidos efeitos sonoros, telas de instruções e uma interface de início,
+                            tornando o projeto mais completo. Ao longo das aulas, o conceito de autômatos é apresentado,
+                            conectando a programação do jogo com o funcionamento de máquinas automáticas do cotidiano.
+                            Por fim, o curso aborda noções de cidadania digital, alertando para o uso consciente de
+                            imagens e a proteção de dados pessoais.
+                        </p>
+                        <P>Ao concluir a unidade, os alunos terão desenvolvido um jogo funcional e original, aplicando
+                            de forma prática os fundamentos da programação em blocos e compreendendo como autômatos
+                            podem ser simulados por meio de lógica computacional.</P>
+                        <img src="img/robo em marte.PNG" class="img-fluid w-100"
+                            alt="imagem representativa do projeto do Scratch">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="">Ver projeto ao vivo</a>
+                    <a href="">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Lógica de programação: criando arte interativa com P5.js</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body">
+                        <p>
+                            Na unidade "Arte com código: crie projetos visuais com P5.js", os alunos exploram de forma
+                            criativa a interseção entre arte e programação. Utilizando a biblioteca P5.js, são
+                            introduzidos à criação de projetos visuais e interativos, que unem formas geométricas, cores
+                            e lógica de programação para gerar composições dinâmicas na tela.
+                        <p>
+                            O curso começa com os primeiros passos na plataforma, onde os estudantes criam suas contas e
+                            escrevem suas primeiras linhas de código. A função createCanvas() é utilizada para definir o
+                            espaço de desenho, enquanto os comandos setup() e draw() estruturam a lógica do programa. A
+                            partir disso, o projeto evolui com a criação de formas geométricas (retângulos, elipses,
+                            linhas), posicionadas usando o plano cartesiano.
+                        </p>
+                        <p>
+                            Os estudantes também aprendem a aplicar cores aos elementos gráficos com comandos
+                            específicos da P5.js, descobrindo como pintar formas e linhas e como controlar a aparência
+                            visual da tela. A lógica condicional, com o uso do comando if, começa a ser integrada ao
+                            projeto, permitindo a criação de interações básicas entre os elementos do desenho.
+                        </p>
+                        <p>
+                            Um dos momentos mais marcantes do curso é a aplicação da função map(), que permite
+                            transformar valores de uma escala para outra — técnica usada, por exemplo, para simular o
+                            movimento de olhos que seguem o cursor, criando um "efeito Monalisa". Esse recurso destaca
+                            como conceitos matemáticos, como o teorema de Pitágoras e mapeamento de valores, podem ser
+                            aplicados para criar arte digital interativa.
+                        </p>
+                        <P>Ao final da unidade, os estudantes não apenas dominam os fundamentos da biblioteca P5.js,
+                            como também desenvolvem uma nova percepção de como a matemática, a lógica e a arte podem se
+                            encontrar no universo do código.</P>
+                        <img src="img/monalisa.PNG" class="img-fluid w-100"
+                            alt="imagem representativa do projeto Monalisa">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="">Ver projeto ao vivo</a>
+                    <a href="">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Listas, funções e repetição: criando um jogo de corrida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body">
+                        <p>
+                            Na unidade "Jogo de Corrida com P5.js", os alunos aprendem a criar um jogo interativo de
+                            corrida, utilizando a biblioteca de programação visual P5.js. Ao longo do curso, desenvolvem
+                            habilidades fundamentais de programação, como uso de variáveis, laços de repetição,
+                            estruturas condicionais e manipulação de eventos do teclado e do mouse.
+                        <p>
+                            O projeto começa com a criação da pista e dos personagens corredores, usando comandos
+                            gráficos básicos. Logo no início, os estudantes implementam a lógica para movimentar os
+                            corredores utilizando teclas específicas do teclado, introduzindo a função keyReleased()
+                            para capturar eventos de interação e tornar os movimentos mais fluidos e controláveis.
+                        </p>
+                        <p>
+                            A lógica do jogo é aprofundada com o uso de estruturas condicionais como if, para detectar
+                            qual jogador cruzou a linha de chegada primeiro e declarar o vencedor da partida. Para isso,
+                            os alunos precisam relacionar coordenadas no canvas com as ações dos jogadores
+                        </p>
+                        <p>
+                            À medida que o jogo avança, o código é refatorado com a criação de funções personalizadas.
+                            Essa prática de modularização facilita a leitura e organização do código, preparando os
+                            estudantes para projetos mais complexos. Também são introduzidas listas (arrays), permitindo
+                            a adição de múltiplos jogadores e a otimização do código com laços de repetição, como o for.
+                        </p>
+                        <P>Os alunos são incentivados a personalizar o jogo com diferentes personagens, explorando o uso
+                            de emojis, textos e cores para representar os corredores. A cada nova etapa, o projeto se
+                            torna mais completo, com múltiplos competidores, animações e reconhecimento automático de
+                            padrões para melhorar o desempenho visual e lógico da aplicação.
+                        </P>
+                        <p>O projeto final inclui uma corrida com até quatro jogadores, uma linha de chegada construída
+                            com repetições visuais, e um sistema para detectar o vencedor de forma automatizada. O jogo
+                            também pode ser compartilhado com colegas, promovendo a troca de experiências e o orgulho
+                            pela criação.
+                        </p>
+                        <p>Ao concluir essa unidade, os estudantes desenvolvem uma compreensão sólida da lógica de
+                            programação, aprendem a aplicar conceitos matemáticos no contexto visual e descobrem como
+                            transformar código em uma experiência divertida e interativa.
+                        </p>
+                        <img src="img/jogo de corrida.PNG" class="img-fluid w-100"
+                            alt="imagem representativa do projeto de Jogo de Corrida">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="">Ver projeto ao vivo</a>
+                    <a href="">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/profgustavomota">GitHub</a>
+        </div>
+        <i class="bi bi-envelope"></i>
+        <a href="gustavosantosmota@prof.educacao.sp.gov.br">Enviar e-mail</a>
+        <div>
+            <p class="my-5 text-center">© Copyright 2025. Produzido por Gustavo Mota</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
